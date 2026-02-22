@@ -57,6 +57,7 @@ The lab is designed to mirror enterprise detection workflows and strengthen hand
 4. Correlated alerts inside Wazuh
 5. Tuned detection rules to reduce noise
 6. Verified email alert pipeline
+
 This workflow mirrors real SOC analyst processes:
 **alert → validate → correlate → investigate → tune**
 

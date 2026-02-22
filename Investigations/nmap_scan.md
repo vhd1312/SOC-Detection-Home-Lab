@@ -46,3 +46,36 @@ Traffic verified using:
 - Suricata fast.log
 - Wazuh alert pipeline
 
+## 🛠 Detection Pipeline
+
+Kali Attacker → Target Endpoint → Suricata IDS → Wazuh SIEM → Email Alert
+Alert correlation confirmed:
+- Source host
+- Scan pattern
+- Alert classification
+
+![Nmap Scan Detection](screenshots/Wazuh_SIEM_Log.png)
+![Nmap Scan Detection](screenshots/Wazuh_SIEM_alert.png)
+![Nmap Scan Detection](screenshots/Email_notification1.png)
+![Nmap Scan Detection](screenshots/Email_notification2.png)
+
+---
+
+## 🎯 Outcome
+
+The lab successfully detected:
+- TCP SYN scan activity
+- Reconnaissance behavior
+- IDS → SIEM alert pipeline functionality
+
+This validates that the detection stack is functioning correctly in a simulated SOC environment.
+
+---
+
+## 🚀 Next Improvements
+
+Planned enhancements:
+- Add firewall telemetry correlation
+- Integrate Nessus vulnerability scan detection
+- Expand detection rules for lateral movement
+

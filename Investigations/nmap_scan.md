@@ -26,7 +26,7 @@ These alerts were ingested into Wazuh and correlated for validation.
 
 Below shows Suricata detecting the scan in real time from the attacker host:
 
-![Nmap Scan Detection](screenshots/suricata_agent_logs.png)
+![Nmap Scan Detection](screenshots/suricata_linux-endpoint_evidence.png)
 
 ---
 

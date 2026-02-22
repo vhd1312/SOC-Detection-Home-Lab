@@ -6,7 +6,6 @@ Simulated reconnaissance activity from a Kali attacker machine targeting a Linux
 **Attacker IP:** 192.168.153.131  
 **Target IP:** 192.168.153.139  
 **Technique:** Nmap TCP SYN Scan  
-**MITRE ATT&CK:** T1046 – Network Service Discovery
 
 ---
 

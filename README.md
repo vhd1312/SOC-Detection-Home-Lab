@@ -1,2 +1,3 @@
 # SOC-Detection-Home-Lab
-Enterprise-style threat detection lab using Wazuh SIEM and Suricata IDS to simulate real-world attack detection and alert triage.
+This project simulates a real-world security operations environment built to practice threat detection, alert triage, and incident investigation using open-source SIEM and IDS tools.
+The lab focuses on building practical blue-team detection skills aligned with SOC and CSIRT roles.

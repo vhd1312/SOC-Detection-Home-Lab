@@ -58,6 +58,8 @@ Alert correlation confirmed:
 ![Nmap Scan Detection](screenshots/Email_notification1.png)
 ![Nmap Scan Detection](screenshots/Email_notification2.png)
 
+Note: The timestamp in the email alert differs from the Wazuh event timestamp due to timezone conversion. The Wazuh manager records logs in UTC, while the email client displays time in the analyst’s local timezone. Both timestamps represent the same event.
+
 ---
 
 ## 🎯 Outcome
